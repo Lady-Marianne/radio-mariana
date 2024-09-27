@@ -7,11 +7,11 @@ public class Audio {
     private int clasificacion;
 
     public void meGusta() {
-        this.totalDeMeGusta;
+        this.totalDeMeGusta++;
     }
 
     public void reproducir() {
-        this.totalDeReproducciones;
+        this.totalDeReproducciones++;
     }
 
     public String getTitulo() {
